@@ -4,11 +4,17 @@
     font-family: 'Abel', sans-serif;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 header {
     background-color: #0d0d0d;
     color: #fef9f8;
     text-align: center;
-    padding: .25em 30px;
+    padding: 5px 30px;
 }
 
 main {
@@ -50,4 +56,17 @@ button:hover {
 
 button:active {
     background-color: #486671;
+}
+
+footer {
+    background-color: #0d0d0d;
+    color: #fef9f8;
+    text-align: center;
+    padding: .25em 30px;
+    margin-top: auto;
+    padding: 5px;
+}
+
+a {
+    color: orange;
 }
